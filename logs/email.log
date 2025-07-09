@@ -1,0 +1,4 @@
+2025-07-09 20:19:35,661 - ERROR -  SMTP error while sending to parandemansi@gmail.com: (334, b'UGFzc3dvcmQ6')
+2025-07-09 20:21:34,049 - ERROR -  SMTP error while sending to parandemansi@gmail.com: (334, b'UGFzc3dvcmQ6')
+2025-07-09 20:23:05,978 - INFO -  Email sent successfully to parandemansi@gmail.com
+2025-07-09 20:25:06,712 - ERROR - Authentication failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-23c845b4f8bsm139829125ad.229 - gsmtp')

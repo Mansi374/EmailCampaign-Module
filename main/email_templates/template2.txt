@@ -1,0 +1,10 @@
+Subject: Hey {user_email}, you're all set!
+
+Hi {user_email},
+
+Thanks for signing up with us! We noticed you're from {domain}, and we've got some exciting stuff tailored just for you.
+
+Stay tuned and don't miss out!
+
+Cheers,
+Team Awesome

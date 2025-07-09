@@ -1,0 +1,10 @@
+Subject: Welcome, {user_email}!
+
+Dear {user_email},
+
+We are excited to have you onboard. Since you're joining us from an academic domain ({domain}), we believe you'll find immense value in our latest updates and tools.
+
+Feel free to reach out anytime. Stay curious!
+
+Warm regards,
+The Team
