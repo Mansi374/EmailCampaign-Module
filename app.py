@@ -2,7 +2,7 @@ from flask import Flask
 from main import create_app
 
 app = create_app()
-print(app.config['EMAIL_USER'])  # 👀 Just to verify it loads correctly
+print(app.config['EMAIL_USER'])  
 
 
 if __name__ == "__main__":

@@ -1,16 +1,14 @@
 from flask import Flask
 from config import Config  # from root of the project
-from flask_migrate import Migrate
+# from flask_migrate import Migrate
 from dotenv import load_dotenv
-from main.extensions import db
+from main.extensions import db,migrate
+from .models import User
 
-# Load environment variables from .env
 load_dotenv()
 
 # Import all your blueprints
-from main.routes.routes import main_bp                  # your original
-from main.routes.main_routes import main_bp as main_bp_clone  # cloned
-from main.routes.email_routes import email_bp           # cloned
+from main.routes.email_routes import email_bp           
 
 def create_app():
     app = Flask(__name__)
@@ -21,11 +19,9 @@ def create_app():
 
     # Initialize extensions
     db.init_app(app)
-    migrate = Migrate(app, db)
+    migrate.init_app(app, db)
 
     # Register Blueprints
-    app.register_blueprint(main_bp)            # your original route
-    app.register_blueprint(main_bp_clone)      # cloned main route
-    app.register_blueprint(email_bp)           # email form + sender
+    app.register_blueprint(email_bp)       
 
     return app

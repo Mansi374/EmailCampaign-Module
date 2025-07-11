@@ -1,7 +1,7 @@
-Flask==3.0.3
+# Flask==3.0.3
 Flask-SQLAlchemy==3.1.1
 Flask-Migrate==4.0.5
-python-dotenv==1.0.1
+# python-dotenv==1.0.1
 mysqlclient==2.2.4
 blinker==1.9.0
 click==8.2.1
@@ -12,6 +12,6 @@ Jinja2==3.1.6
 MarkupSafe==3.0.2
 python-dotenv==1.1.1
 Werkzeug==3.1.3
-Flask
-python-dotenv
-Flask-SQLAlchemy
+# Flask
+# python-dotenv
+# Flask-SQLAlchemy
